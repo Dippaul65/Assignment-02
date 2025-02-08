@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.Quick-sand{
+     font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Share-Related-Styles */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 12px;
+   padding: 10px 60px 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.bg-color{
+    background-color: black;
+}
+/* text-dark-01 */
+.text-black{
+    color: black;
+}
+/* text-dark-02 */
+.text-orange{
+    color: orange;
+}
+/* text-dark-03 */
+.text-skyblue{
+    color: skyblue;
+}
+/* text-color-white */
+.text-color-white{
+    color: white;
+}
+/* linear-gradient-01 */
+.linear-gradient-01{
+    background-image: linear-gradient(rgb(209, 235, 245), white);
+}
+/* linear-gradient-02 */
+.linear-gradient-02{
+    background-image: linear-gradient(rgb(248, 248, 194), white);
+}
+/* linear-gradient-03 */
+.linear-gradient-03{
+    background-image: linear-gradient(rgb(187, 235, 237), white);
+}
+/* linear-gradient-04 */
+.linear-gradient-04{
+    background-image: linear-gradient(rgb(252, 252, 252), rgb(230, 243, 171));
+}
+.Btn-bg-color-01{
+    background-color: rgba(149, 178, 38, 1);
+}
+.Btn-bg-color-02{
+    background-color: rgba(93, 88, 240, 1);
+}
+.Btn-bg-color-03{
+    background-color: rgb(100, 121, 14);
+}
+.Btn-bg-color-04{
+    background-color: rgb(137, 148, 94);
+}
+  /* Navbar related styles */
+.navbar{
+    gap: 186px;
+    align-items: center;
+    justify-items: center;
+}
+.brand{
+     font-weight: 700;
+     font-size: 2rem;
+     align-items: center;
+     justify-content: center;
+}
+
+.nav-links{
+    list-style: none;
+    gap: 32px;
+    text-decoration: none;
+}
+.nav-links-01{
+    text-decoration: none;
+}
+.nav-links-02{
+    
+    text-decoration: none;
+}
+.nav-links-03{
+    color: rgba(5, 212, 223, 1);
+    text-decoration: none;
+}
+.nav-links-04{
+    color: rgba(93, 88, 239, 1);
+    text-decoration: none;
+}
+/* Banner related styles */
+.banner{
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+}
+.Empower{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-title{
+    margin-bottom: 24px;
+}
+.banner-discription{
+    margin-bottom: 24px;
+}
+
+.banner-discription{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+ /* Standard-Curriculum */
+ .Curriculum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+.Curriculum-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.curriculum-critaria{
+    color: rgba(222, 245, 255, 1);
+    border: none;
+    box-shadow: 1px skyblue inset;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 52px 40px 53px 40px;
+    margin-right: 28.29px;
+    border-radius: 18.86px;
+}
+.Critaria-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 33.48px;
+    color: black;
+}
+.Critaria-descriptipn{
+    font-size: 0.943rem;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 34px;
+}
+.Read-more-link-01{
+    border: none;
+    text-decoration: none;
+    font-size: o.943rem;
+    color: rgba(100, 200, 255, 1);
+    background-color: none;
+}
+.Read-more-link-02{
+    border: none;
+    text-decoration: none;
+    font-size: o.943rem;
+    color: rgba(240, 170, 0, 1);
+}
+.Read-more-link-03{
+    border: none;
+    text-decoration: none;
+    font-size: o.943rem;
+    color: rgba(135, 0, 255, 1)
+}
+.background{
+    margin-top: -580px;
+   
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.arrow-btn-rotate{
+    rotate: 180deg;
+}
+.arrow-btn{
+    border-radius: 50%;
+    background-color: orange;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+            /* Our-Stories */
+.Stories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+.Story-box-01{
+    width: 540px;
+    height: 620px;
+    background-color: white;
+    /* padding-right: 38px;
+    padding-left: 38px; */
+    border-radius: 16px;
+    margin-left: 19.17px;
+    margin-right: auto;
+}
+.Stories-boX-office{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}       
+.story-img-01{
+    border: none;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+.Story-box-content{
+    margin-right: 38px;
+    margin-left: 38px;
+}
+.stories-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+.stories-description{
+    font-size: 0.958rem;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+.btn-story-01{
+    background-color: rgba(60, 216, 232, 1);
+    color: white;
+    border-radius: 47.93px;
+    border: none;
+     padding: 15px 30px 15px 30px;
+     margin-left: 38px;
+     margin-top: -200px;
+     /* margin-bottom: 38px; */
+}
+
+.measurement-boX{
+    width: 290px;
+    height: 301px;
+}
+.btn-story-02{
+   
+    color: white;
+    border-radius: 47.93px;
+    border: none;
+     padding: 10px 20px 10px 20px;
+     margin-left: 38px;
+     margin-top: -200px;
+     /* margin-bottom: 38px; */
+}
+.stories-name-2nd{
+    font-size: 0.98743rem;
+    font-weight: 700;
+}
+.Story-box-02, .Story-box-03,.Story-box-04, .Story-box-05{
+    background-color: white;
+    border-radius: 12px;
+}
+.View-All-btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 12px;
+   padding: 10px 60px 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+   margin: 20px auto;
+
+}
+.background-02{
+    margin-bottom: -800px;
+   
+}
+ .Our-Stories{
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 223, 186, 0.9)),
+                url('../assets/bg.png') no-repeat center center;
+    padding-bottom: 20px;           
+ }
+
+ /* Kids-Footer */
+ .Kids-Footer{
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(1, 172, 253, 1);
+ }
+ .Kids{
+    width: 399px;
+ }
+ .Kids-title{
+    font-size: 2.637rem;
+    font-weight: 700;
+  
+ }
+ .Kids-description{
+    font-size: 1.25rem;
+    font-weight: 400; 
+ }
+ .About{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+ }
+ .links{
+    list-style: none;
+    text-decoration: none;
+}
+.item-01,.item-02,.item-03,.item-04{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.links-01, .links-02 , .links-03, .links-04{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.Icons-title{
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.icon-item{
+    margin-right: 10px;
+}
+/* Responsive Media Query */
+/* For Mobile Device */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-discription {
+        font-size: 1rem;
+    }
+
+    .curriculum-critaria {
+        width: 100%; /* Full width on small screens */
+        margin-right: 0;
+    }
+
+    .Stories {
+        flex-direction: column;
+    }
+
+    .Story-box-01 {
+       visibility: hidden;
+    }
+    .Curriculum{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .Stories-boX-office {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; /* Stack items */
+    }
+}
+/* For Medium Device */
+ @media (max-width: 1200px)  {
+    .navbar {
+        gap: 50px;
+        flex-direction: column; /* Stack nav items */
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner img {
+        width: 80%; /* Adjust image size */
+    }
+    .Curriculum{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .btn-primary {
+        padding: 8px 40px;
+        font-size: 1rem;
+    }
+}
+
+
