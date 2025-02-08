@@ -298,50 +298,87 @@
     padding-bottom: 20px;           
  }
 
- /* Kids-Footer */
- .Kids-Footer{
-    align-items: center;
+ .Kids-Footer {
+    display: flex;
+    align-items: center; /* Ensures the child divs align vertically within the footer */
     justify-content: space-around;
     background-color: rgba(1, 172, 253, 1);
- }
- .Kids{
+   
+}
+
+.Kids-Footer {
+    display: flex;
+    justify-content: space-around; /* Keep the divs spaced out horizontally */
+    align-items: flex-start; /* Align the divs at the top */
+    background-color: rgba(1, 172, 253, 1);
+    padding-top: 123px;
+}
+.logo-icon{
+    width: 100px;
+    height: 100px;
+    margin-left: -110px;
+}
+.Kids, .About-School, .Icons {
+    display: flex;
+    flex-direction: column; /* Arrange the elements vertically */
+    align-items: center; /* Center the titles horizontally */
+}
+
+.Kids-title, .About, .Icons-title {
+    margin: 0; /* Remove any default margins */
+    display: flex;
+    align-items: center; /* Vertically center the titles */
+}
+
+.Kids {
     width: 399px;
- }
- .Kids-title{
+}
+
+.Kids-title {
     font-size: 2.637rem;
     font-weight: 700;
-  
- }
- .Kids-description{
+}
+
+.Kids-description {
     font-size: 1.25rem;
-    font-weight: 400; 
- }
- .About{
+    font-weight: 400;
+}
+
+.About {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 32px;
- }
- .links{
+}
+
+.links {
     list-style: none;
     text-decoration: none;
 }
-.item-01,.item-02,.item-03,.item-04{
+
+.item-01, .item-02, .item-03, .item-04 {
     font-size: 1.25rem;
     font-weight: 500;
+    margin-bottom: 10px;
 }
-.links-01, .links-02 , .links-03, .links-04{
+
+.links-01, .links-02, .links-03, .links-04 {
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
 }
-.Icons-title{
+
+.Icons-title {
     font-size: 1.625rem;
     font-weight: 700;
     margin-bottom: 32px;
 }
-.icon-item{
+
+.icon-item {
+    flex-direction: row;
     margin-right: 10px;
 }
+
+
 /* Responsive Media Query */
 /* For Mobile Device */
 @media screen and (max-width: 576px) {
