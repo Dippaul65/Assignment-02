@@ -414,7 +414,7 @@
     }
 
     .curriculum-critaria {
-        width: 85%; /* Full width on small screens */  
+        width: 80%; 
     }
 
     .Stories {
@@ -429,8 +429,10 @@
         gap: 10px;
     }
     .Stories-boX-office {
+        max-width: 576px;
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px; /* Stack items */
+        gap: 20px; 
     }
     .Kids-Footer{
         flex-direction: column;
@@ -458,7 +460,7 @@
     }
 
     .banner img {
-        width: 80%; /* Adjust image size */
+        width: 80%; 
     }
     .Curriculum{
         grid-template-columns: repeat(1, 1fr);
@@ -469,50 +471,4 @@
         font-size: 1rem;
     }
 }
-
-/* Navbar related styles */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: relative;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.brand {
-    font-weight: 700;
-    font-size: 2rem;
-    margin-left: 10px;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 32px;
-    text-decoration: none;
-}
-
-.nav-links-01, .nav-links-02, .nav-links-03, .nav-links-04 {
-    text-decoration: none;
-}
-
-.menu-icon {
-    display: none; /* Hidden by default */
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.hamburger {
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: black; /* Ensure the icon is visible */
-    cursor: pointer;
-}
-
 
