@@ -73,6 +73,8 @@
     gap: 186px;
     align-items: center;
     justify-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 .brand{
      font-weight: 700;
@@ -80,7 +82,11 @@
      align-items: center;
      justify-content: center;
 }
+.hamburger{
+    background: none;
+    border: none;
 
+}
 .nav-links{
     list-style: none;
     gap: 32px;
@@ -101,6 +107,7 @@
     color: rgba(93, 88, 239, 1);
     text-decoration: none;
 }
+
 /* Banner related styles */
 .banner{
     align-items: center;
@@ -383,15 +390,21 @@
 /* For Mobile Device */
 @media screen and (max-width: 576px) {
     .navbar {
-        flex-direction: column;
-        gap: 20px;
+        padding: 10px;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 15px;
+   .nav-links-01, .nav-links-02, .nav-links-03, .nav-links-04, .brand, .btn-primary {
+     display: none;
+   }
+
+    .menu-icon {
+        display: block; /* Show the menu icon */
     }
 
+    .logo-img {
+        width: 50px; /* Adjust logo size for mobile */
+    }
+    
     .banner-title {
         font-size: 2.5rem;
     }
@@ -401,16 +414,15 @@
     }
 
     .curriculum-critaria {
-        width: 100%; /* Full width on small screens */
-        margin-right: 0;
+        width: 85%; /* Full width on small screens */  
     }
 
     .Stories {
         flex-direction: column;
     }
 
-    .Story-box-01 {
-       visibility: hidden;
+    .Story-box-01, .button {
+       display: none;
     }
     .Curriculum{
         grid-template-columns: repeat(1, 1fr);
@@ -420,15 +432,21 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px; /* Stack items */
     }
+    .Kids-Footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+   
 }
 /* For Medium Device */
- @media (max-width: 1200px)  {
+ @media (max-width: 992px)  {
     .navbar {
         gap: 50px;
-        flex-direction: column; /* Stack nav items */
         text-align: center;
     }
-
+   .hamburger{
+    display: none;
+   }
     .nav-links {
         flex-direction: column;
         gap: 10px;
@@ -450,6 +468,51 @@
         padding: 8px 40px;
         font-size: 1rem;
     }
+}
+
+/* Navbar related styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    text-decoration: none;
+}
+
+.nav-links-01, .nav-links-02, .nav-links-03, .nav-links-04 {
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none; /* Hidden by default */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black; /* Ensure the icon is visible */
+    cursor: pointer;
 }
 
 
